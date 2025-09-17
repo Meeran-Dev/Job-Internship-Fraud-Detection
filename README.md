@@ -55,7 +55,8 @@ This project is an ML application to predict whether a job or internship posting
 - A custom weighted recall-precision metric was used to select the best model.
 - The final model is saved as `scam_prediction_model.pkl` and loaded by the Streamlit app.
 
-- Final Classification Report
+## Final Classification Report
+
 | Metric | Precision | Recall | F1-Score | Support |
 | :--- | :--- | :--- | :--- | :--- |
 | **0** | 0.99 | 0.95 | 0.97 | 4212 |
