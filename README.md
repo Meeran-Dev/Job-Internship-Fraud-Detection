@@ -56,12 +56,11 @@ This project is an ML application to predict whether a job or internship posting
 - The final model is saved as `scam_prediction_model.pkl` and loaded by the Streamlit app.
 
 - Final Classification Report
-              precision    recall  f1-score   support
-
-           0       0.99      0.95      0.97      4212
-           1       0.39      0.79      0.52       185
-
-    accuracy                           0.94      4397
-   macro avg       0.69      0.87      0.74      4397
-weighted avg       0.96      0.94      0.95      4397
+| Metric | Precision | Recall | F1-Score | Support |
+| :--- | :--- | :--- | :--- | :--- |
+| **0** | 0.99 | 0.95 | 0.97 | 4212 |
+| **1** | 0.39 | 0.79 | 0.52 | 185 |
+| **Accuracy** | | | 0.94 | 4397 |
+| **Macro Avg** | 0.69 | 0.87 | 0.74 | 4397 |
+| **Weighted Avg** | 0.96 | 0.94 | 0.95 | 4397 |
 
